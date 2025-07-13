@@ -265,7 +265,7 @@ namespace operation_data {
       if(this->request_cycles >= OPERATION_DATA_REQUEST_TIMEOUT_CYCLES) {
         this->request_next = true;
         this->timeouts++;
-        ESP_LOGW("MHI-AC-CTRL-Operation-Data", "Timeout when requesting Operation Data %s", all[this->cycle_index]->name());
+        //ESP_LOGW("MHI-AC-CTRL-Operation-Data", "Timeout when requesting Operation Data %s", all[this->cycle_index]->name());
       }
 
       if(this->request_next) {
@@ -304,11 +304,11 @@ namespace operation_data {
 
       if(!match_found) {
         if(mosi_frame[DB9] == 0x45 && (mosi_frame[DB6] & 0x80) != 0 && mosi_frame[DB10] == 0x11) {
-          ESP_LOGW("MHI-AC-CTRL-Operation-Data", "Last error number: %u", mosi_frame[DB11]);
+          //ESP_LOGW("MHI-AC-CTRL-Operation-Data", "Last error number: %u", mosi_frame[DB11]);
         } else if(mosi_frame[DB9] == 0x45 && (mosi_frame[DB6] & 0x80) != 0 && mosi_frame[DB10] == 0x12) {
-          ESP_LOGW("MHI-AC-CTRL-Operation-Data", "Count of following error operation data: %u", mosi_frame[DB11] + 4);
+          //ESP_LOGW("MHI-AC-CTRL-Operation-Data", "Count of following error operation data: %u", mosi_frame[DB11] + 4);
         } else if (mosi_frame[DB9] != 0xff) {
-          ESP_LOGW("MHI-AC-CTRL-Operation-Data", "Error: Unknown opdata: %02x %02x %02x", mosi_frame[DB9], mosi_frame[DB6], mosi_frame[DB10]);
+          //ESP_LOGW("MHI-AC-CTRL-Operation-Data", "Error: Unknown opdata: %02x %02x %02x", mosi_frame[DB9], mosi_frame[DB6], mosi_frame[DB10]);
         } else {
           ESP_LOGD("MHI-AC-CTRL-Operation-Data", "Got: nothing");
         }
