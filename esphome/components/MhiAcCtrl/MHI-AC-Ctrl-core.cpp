@@ -648,8 +648,7 @@ io_conf.pull_down_en = GPIO_PULLDOWN_DISABLE;
                         NULL,                   // Task input parameter
                         10,                     // Priority of the task
                         &mhi_poll_task_handle,  // Task handle.
-                        1,                      // Core where the task should run
-                        tskNO_AFFINITY
+                        tskNO_AFFINITY          // Core where the task should run                        
                         );                     
 
     return InitError::Ok;
