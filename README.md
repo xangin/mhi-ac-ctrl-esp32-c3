@@ -47,9 +47,9 @@ YAML修改基本上只要修改最頂端的名稱即可，方便OTA與辨識是�
 
 詳細請參考[Hardware.md](Hardware.md)
 
+## 致謝 Credit & Thanks
 
-
-## 📦Credits
-
-This project is based on the excellent work of [hberntsen/mhi-ac-ctrl-esp32-c3](https://github.com/hberntsen/mhi-ac-ctrl-esp32-c3), which itself integrates multiple community contributions.
+Based on the excellent work of [hberntsen/mhi-ac-ctrl-esp32-c3](https://github.com/hberntsen/mhi-ac-ctrl-esp32-c3), and thanks to hberntsen for his contributions to the ESPHome community.
 Licensed under MIT.
+
+感謝協助測試硬體的RyanChu、KIMI、HsuHank，設計3D外殼的紅軍
