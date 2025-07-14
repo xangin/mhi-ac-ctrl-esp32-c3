@@ -19,8 +19,8 @@ YAML修改基本上只要修改最頂端的名稱即可，方便OTA與辨識是�
 
 | 檔名 | 適用機型 | 燒錄方式 | Bin檔 | YAML |
 |-------|:-----:|:-----:|:-----:|-------|
-| 三菱重工-壁掛式.factory.bin | 壁掛式 | 接USB直接燒錄 | [Bin檔](三菱重工-壁掛式.factory.bin) | [YAML](mhi-ac-wall.yaml) |
-| 三菱重工-吊隱式.factory.bin | 吊隱式 | 接USB直接燒錄 | [Bin檔](三菱重工-吊隱式.factory.bin) | [YAML](mhi-ac-ceiling.yaml) |
+| mhi-ac-wall.factory.bin | 壁掛式 | 接USB直接燒錄 | [Bin檔](mhi-ac-wall.factory.bin) | [YAML](mhi-ac-wall.yaml) |
+| mhi-ac-ceiling.factory.bin | 吊隱式 | 接USB直接燒錄 | [Bin檔](mhi-ac-ceiling.factory.bin) | [YAML](mhi-ac-ceiling.yaml) |
 
 ## 如何下載
 
