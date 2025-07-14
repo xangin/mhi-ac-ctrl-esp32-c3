@@ -15,6 +15,8 @@ This is a customized version of [hberntsen/mhi-ac-ctrl-esp32-c3](https://github.
 
 ## 燒錄檔與ESPhome程式碼 Bin & YAML
 
+YAML修改基本上只要修改最頂端的名稱即可，方便OTA與辨識是哪一台，也可將用不到的實體註解掉
+
 | 檔名 | 適用機型 | 燒錄方式 | Bin檔 | YAML |
 |-------|:-----:|:-----:|:-----:|-------|
 | 三菱重工-壁掛式.factory.bin | 壁掛式 | 接USB直接燒錄 | [Bin檔](三菱重工-壁掛式.factory.bin) | [YAML](mhi-ac-wall.yaml) |
@@ -47,7 +49,7 @@ This is a customized version of [hberntsen/mhi-ac-ctrl-esp32-c3](https://github.
 
 
 
-# 📦Credits
+## 📦Credits
 
 This project is based on the excellent work of [hberntsen/mhi-ac-ctrl-esp32-c3](https://github.com/hberntsen/mhi-ac-ctrl-esp32-c3), which itself integrates multiple community contributions.
 Licensed under MIT.
