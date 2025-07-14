@@ -17,6 +17,21 @@ Size: 46.5mm x 26mm
 
 <img src="images/PCB_BOTTOM.png" width=600/>
 
+## 成品圖
+
+1. 焊接完成的板子: **要剃除模組上的天線，收訊才會好!!**
+
+<img src="images/RAW_Board.jpg" width=600/>
+
+2. 放入3D列印殼中: **要剃除模組上的天線，收訊才會好!!**
+
+<img src="images/BoardinCase.jpg" width=600/>
+
+3. 完成品，蓋上蓋與接上排線:
+
+<img src="images/3DCase&Cable.jpg" width=600/>
+
+
 ## 材料清單 Bill of Material
 
 1. ESP32C3 super mini
