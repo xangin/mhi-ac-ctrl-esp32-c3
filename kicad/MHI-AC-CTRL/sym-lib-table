@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "MHI-AC-CTRL")(type "KiCad")(uri "${KIPRJMOD}/MHI-AC-CTRL.kicad_sym")(options "")(descr ""))
-)
