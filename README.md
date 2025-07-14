@@ -5,9 +5,9 @@ This is a customized version of [hberntsen/mhi-ac-ctrl-esp32-c3](https://github.
 
 ## 三菱重工冷氣ESPhome
 
-這是個使用ESP32C3搭配ESPhome來控制三菱重工冷氣的專案，可適用壁掛及吊隱式冷氣
+這是使用ESP32C3搭配ESPhome來控制三菱重工冷氣的專案，可適用壁掛及吊隱式冷氣
 
-感謝[hberntsen/mhi-ac-ctrl-esp32-c3](https://github.com/hberntsen/mhi-ac-ctrl-esp32-c3)開發ESPhome韌體，搭配我設計的硬體，即可本地端控制三菱重工冷氣
+感謝[hberntsen/mhi-ac-ctrl-esp32-c3](https://github.com/hberntsen/mhi-ac-ctrl-esp32-c3)開發ESPhome韌體，搭配我設計的[硬體](Hardware.md)，即可本地端控制三菱重工冷氣
 
 適用型號: 支援外接原廠Wi-Fi智慧模組的機型，機器上有白色5pin的XH2.54mm底座就能使用
 
