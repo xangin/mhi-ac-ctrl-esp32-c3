@@ -20,7 +20,7 @@ esphome:
         - switch.turn_on: ${device_id}_active_mode
 
 external_components:
-  - source: github://xangin/mhi-ac-ctrl-esp32-c3/esphome
+  - source: github://hberntsen/mhi-ac-ctrl-esp32-c3/esphome
     components: [ MhiAcCtrl ]
     #refresh: 0s
 
