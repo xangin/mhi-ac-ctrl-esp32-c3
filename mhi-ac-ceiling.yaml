@@ -12,10 +12,10 @@ esphome:
   friendly_name: ${upper_devicename}
   comment: ESP32C3 for $model_name
   min_version: "2025.7"
-  name_add_mac_suffix: true  
+  name_add_mac_suffix: false
   project:
-    name: "$brand.$model_name"
-    version: "ESP32C3" #hardware
+    name: "$brand.ESP32C3-$model_name"
+    version: "2025.9.26"
   on_boot:
     - priority: -100.0
       then:
